@@ -2,6 +2,8 @@
 
 The default prettier configuration for all WDB projects.
 
+Submodule within `mono`
+
 ## How To Use
 
 Start by installing Prettier and this configuration into your app:
@@ -25,3 +27,5 @@ module.exports = {
 ```
 
 Make sure you install your IDE specific Prettier plugin (like [this one](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode) for VSCode) and you're good to go!
+
+If using yarn PnP, make sure you run `yarn sdks <your editor>`!
